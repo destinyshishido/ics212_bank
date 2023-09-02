@@ -1,0 +1,101 @@
+Script started on Mon 28 Nov 2022 11:54:40 PM HST
+]0;dest@uhx02:~/project2[?1034huhx02:/home/d/dest/project2% exit./project_debugmake -f debug.mak[8Ptouch *.omake -f debug.mak[6Ptouch *.cpp
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% make -f release.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project user_interface.o llist.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% touch *.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% touch *.omake -f release.mak
+g++ -o project user_interface.o llist.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% make -f release.mak
+make: `project' is up to date.
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% ./project
+Welcome to the bank database where you can access all bank records based on account number.
+All records contain the account number, the account holder's address, and the account holder's name.
+
+Listed below are your options.
+
+add: Add a new record in the database
+printall: Print all records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+Make a selection. Press enter once finished.
+pr
+
+Printing all records
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+
+What next? Make selection (add, printall, find, delete, quit)
+q
+
+QUIT PROGRAM
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% ./projectmake -f release.mak[10Ptouch *.omake -f release.mak[8Ptouch *.cpp
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% make -f debug.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -DDEBUGMODE -o project_debug user_interface.o llist.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% make -f debug.mak[6Ptouch *.cpp[K[K[Ko
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% touch *.omake -f debug.mak
+g++ -DDEBUGMODE -o project_debug user_interface.o llist.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% make -f debug.mak
+g++ -DDEBUGMODE -o project_debug user_interface.o llist.o
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% ./project_debug
+Welcome to the bank database where you can access all bank records based on account number.
+All records contain the account number, the account holder's address, and the account holder's name.
+
+Listed below are your options.
+
+add: Add a new record in the database
+printall: Print all records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+Make a selection. Press enter once finished.
+pr
+
+Printing all records
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+
+What next? Make selection (add, printall, find, delete, quit)
+q
+
+QUIT PROGRAM
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% exit
+exit
+
+Script done on Mon 28 Nov 2022 11:55:18 PM HST

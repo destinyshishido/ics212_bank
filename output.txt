@@ -1,0 +1,98 @@
+Script started on Mon 28 Nov 2022 11:55:40 PM HST
+]0;dest@uhx02:~/project2[?1034huhx02:/home/d/dest/project2% ./project
+Welcome to the bank database where you can access all bank records based on account number.
+All records contain the account number, the account holder's address, and the account holder's name.
+
+Listed below are your options.
+
+add: Add a new record in the database
+printall: Print all records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+Make a selection. Press enter once finished.
+add
+
+Adding a record.
+Enter account number: 123
+Enter account holder's name: Joe
+Enter address: makki  iki@
+Record added.
+
+What next? Make selection (add, printall, find, delete, quit)
+pr
+
+Printing all records
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 200
+Name: Destiny
+Address: Makiki
+
+Account Number: 123
+Name: Joe
+Address: makiki
+
+
+What next? Make selection (add, printall, find, delete, quit)
+f delete
+Deleting
+Enter account number: 123
+1 records deleted.
+
+What next? Make selection (add, printall, find, delete, quit)
+q
+
+QUIT PROGRAM
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% ./project_debug
+Welcome to the bank database where you can access all bank records based on account number.
+All records contain the account number, the account holder's address, and the account holder's name.
+
+Listed below are your options.
+
+add: Add a new record in the database
+printall: Print all records in the database
+find: Find record(s) with a specified account number
+delete: Delete existing record(s) from the database using the account number as a key
+quit: Quit the program
+
+Make a selection. Press enter once finished.
+add
+
+Adding a record.
+Enter account number: 322
+Enter account holder's name: Lei
+Enter address: PC@
+Record added.
+
+What next? Make selection (add, printall, find, delete, quit)
+find
+
+Find record
+Enter account number: 322
+Account Number: 322
+Name: Lei
+Address: PC
+
+1 records found.
+
+What next? Make selection (add, printall, find, delete, quit)
+q
+
+QUIT PROGRAM
+]0;dest@uhx02:~/project2uhx02:/home/d/dest/project2% exit
+exit
+
+Script done on Mon 28 Nov 2022 11:56:19 PM HST
